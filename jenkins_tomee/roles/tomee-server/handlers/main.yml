@@ -1,0 +1,2 @@
+- name: Activer TomEE
+  systemd: daemon_reload=yes enabled=yes state=started name=tomee
